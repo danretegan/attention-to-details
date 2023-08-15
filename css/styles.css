@@ -116,7 +116,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .container {
     width: 100%;
   }
@@ -126,11 +126,13 @@ img {
     flex-wrap: nowrap;
     gap: 30px;
     justify-content: center;
+    width: 1158px;
   }
 
   .big-icon-area,
   .advertising-title,
   .advertising-text {
-    width: 270px;
+    max-width: 270px;
+    width: 100%;
   }
 }
